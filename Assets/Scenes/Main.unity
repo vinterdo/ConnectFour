@@ -518,6 +518,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InfoText: {fileID: 443903116}
+  Player1: 3
+  Player2: 1
 --- !u!1 &1912000974
 GameObject:
   m_ObjectHideFlags: 0

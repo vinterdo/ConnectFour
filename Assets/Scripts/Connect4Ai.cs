@@ -101,7 +101,7 @@ namespace Assets.Scripts
         //Evaluate board favorableness for AI
         public int EvaluateBoard(Board board, int player)
         {
-            return -1 * Referee.Score(board);
+            return Referee.Score(board);
         }
 
         public int Minimax(int depth, int turn, int alpha, int beta, int player) // turn - 1 for max, 2 for min
